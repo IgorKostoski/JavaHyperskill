@@ -1,10 +1,15 @@
 package tictactoe;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // write your code here
-        System.out.print("X" +  "O" + "X");
-        System.out.print("O" + "X" + "O");
-        System.out.print("X" + "O" + "X");
+        Scanner scanner = new Scanner(System.in);
+        char[] input = scanner.nextLine().toCharArray();
+        System.out.println("---------");
+        for (int i = 0; i < 9; i += 3) {
+            System.out.println(String.format("| %c %c %c |", input[i], input[i+1], input[i+2]));
+        }
+        System.out.println("---------");
     }
 }

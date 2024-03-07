@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-07T17:11:03" hostname="Igors-MBP.fritz.box" time="0.035">
+<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-07T18:10:26" hostname="Igors-MBP.fritz.box" time="0.05">
   <properties/>
-  <testcase name="start" classname="TicTacToeTest" time="0.035"/>
+  <testcase name="start" classname="TicTacToeTest" time="0.05"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
+> O_OXXO_XX
+---------
+| O _ O |
+| X X O |
+| _ X X |
+---------
+?[1;31m
+Start test 2?[0m
+> OXO__X_OX
+---------
+| O X O |
+| _ _ X |
+| _ O X |
+---------
+?[1;31m
+Start test 3?[0m
+> _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 4?[0m
+> _O__X___X
+---------
+| _ O _ |
+| _ X _ |
+| _ _ X |
+---------
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

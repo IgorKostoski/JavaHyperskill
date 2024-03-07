@@ -1,0 +1,44 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner; // essential import for user input
+      
+      public class Main {
+          public static void main(String[] args) {
+              // Create a new scanner for user input
+              Scanner scanner = new Scanner(System.in);
+      
+              // TODO: Get an integer input from the user
+      
+              // TODO: Calculate the square of the input
+      
+              // TODO: Print the result out
+      
+              // Important to close the scanner!
+              scanner.close();
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/43832#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 3. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    5
+
+    Correct output:
+    25
+
+
+    Your code output:
+    Enter an integer
+    Square of the input is: 25
+  time: "Tue, 27 Feb 2024 20:40:01 UTC"
+record: -1
+submission_language: java17

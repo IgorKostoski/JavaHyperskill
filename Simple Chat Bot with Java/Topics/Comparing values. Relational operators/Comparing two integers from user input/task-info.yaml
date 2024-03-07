@@ -1,0 +1,17 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.Scanner; // import necessary method for input handling\n\
+    \npublic class Main {\n    public static void main(String[] args) {\n        Scanner\
+    \ scanner = new Scanner(System.in); // create a scanner object for getting user\
+    \ input\n\n        // read the first and second numbers and store them into variables\n\
+    \        int firstNumber = scanner.nextInt();\n        int secondNumber = scanner.nextInt();\n\
+    \n        // write your code here to compare firstNumber and secondNumber and\
+    \ store the result in a variable\n\n        // print the result of the comparison\n\
+    \        System.out.println(/* result variable here */); \n    }\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/43190#comment
+status: Solved
+record: -1
+submission_language: java17

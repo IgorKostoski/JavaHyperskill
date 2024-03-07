@@ -1,0 +1,78 @@
+<h2>Comparing values. Relational operators</h2>
+<div class="step-text">
+<p><a class="theory-lookup" href="/learn/step/3506" rel="noopener noreferrer nofollow" target="_blank" title="Sure, relational operators in Java are used for comparing values and determining relationships between them. | They help in checking if one value is greater than another, less than another, or if two values are equal. These operators are essential for making decisions and controlling program flow based on specific conditions. Java provides six relational operators to compare numbers: greater than (&gt;), less than (&lt;), greater than or equal to (&gt;=), less than or equal to (&lt;=), equal to (==), and not equal to (!=).">Relational operators</a> in Java are used for comparing values. They help in determining relationships between variables, such as checking if one value is greater than another or if two values are equal. These operators are essential for making decisions and controlling program flow based on specific <a class="theory-lookup" href="/learn/step/3582" rel="noopener noreferrer nofollow" target="_blank" title="A condition in Java is a boolean expression that is evaluated to either true or false. | It is used within control flow statements such as if-else or switch-case to determine the flow of code execution based on the evaluation result. Conditions can involve logical and arithmetic operations, as well as comparison operators, to check for specific conditions or states. They can also contain variables or function calls, and the and/or operators can be used to combine multiple conditions.">conditions</a>.</p>
+<h5 id="list-of-relational-operators" style="text-align: center;">List of relational operators</h5>
+<p>Java provides six relational operators to compare numbers:</p>
+<ul>
+<li><code class="language-java">==</code> (equal to)</li>
+<li><code class="language-java">!=</code> (not equal to)</li>
+<li><code class="language-java">&gt;</code> (greater than)</li>
+<li><code class="language-java">&gt;=</code> (greater than or equal to)</li>
+<li><code class="language-java">&lt;</code> (less than)</li>
+<li><code class="language-java">&lt;=</code> (less than or equal to)</li>
+</ul>
+<p>The result of applying a relational operator to its <a class="theory-lookup" href="/learn/step/3502" rel="noopener noreferrer nofollow" target="_blank" title="An operand in Java is a value that an operator acts upon. | It can be a variable, a literal value, or the result of an expression. Operands can be of any data type, such as integer, float, boolean, or user-defined types. They are an essential part of expressions, which are built using operators and operands. Operands can be used in various ways, such as unary (one operand), binary (two operands), or ternary (three operands) operations.">operands</a> will be <a class="theory-lookup" href="/learn/step/3516" rel="noopener noreferrer nofollow" target="_blank" title="In Java, boolean is a data type that has only two possible values: true and false. | It is also known as the logical type and is commonly used to represent something that has only two opposite states, like on or off, yes or no. Variables of the boolean type are often used to build logical expressions using logical operators, such as not, and, or, and xor. These operators allow for straightforward comparison of numeric values and can be seamlessly integrated into mixed expressions with arithmetic operators.">boolean</a> (<code class="language-java">true</code> or <code class="language-java">false</code>) regardless of the types of operands.</p>
+<h5 id="comparing-integer-numbers" style="text-align: center;">Comparing integer numbers</h5>
+<p>Relational operators allow you to easily compare, among other things, two <a class="theory-lookup" href="/learn/step/3565" rel="noopener noreferrer nofollow" target="_blank" title="In Java, an integer number is a type of primitive data type that represents whole numbers, both positive and negative, as well as zero. | The most commonly used integer types are byte, short, int, and long, with int being the default type. These types can store numbers within specific ranges, with int being able to store numbers between -2,147,483,648 and 2,147,483,647.">integer numbers</a>. Here are some examples:</p>
+<pre><code class="language-java">int one = 1;
+int two = 2;
+int three = 3;
+int four = 4;
+
+boolean oneIsOne = one == one; // true
+
+boolean res1 = two &lt;= three; // true
+boolean res2 = two != four;  // true
+boolean res3 = two &gt; four;   // false
+boolean res4 = one == three; // false</code></pre>
+<p>Relational operators can be used in mixed <a class="theory-lookup" href="/learn/step/11635" rel="noopener noreferrer nofollow" target="_blank" title="An expression in Java is a combination of variables, operators, and method invocations that yield a value when evaluated. | It can be a simple literal, variable, or operator, or a complex mix of these elements. Expressions are fundamental to programming as they allow you to perform calculations, manipulate data, and make decisions. They can be assigned to variables, passed as arguments to methods, or used in control flow structures like if-else statements and loops. Understanding expressions is crucial for writing effective Java code.">expressions</a> together with <a class="theory-lookup" href="/learn/step/3519" rel="noopener noreferrer nofollow" target="_blank" title="An arithmetic operator in Java refers to the various symbols used to perform mathematical calculations, such as addition, subtraction, multiplication, division, and modulus. | These operators take numerical values as operands and return a numerical result. They are fundamental to performing calculations and decision-making processes in Java programs.">arithmetic operators</a>. In such expressions, relational operators have lower priorities than arithmetic operators.</p>
+<p>In the following example, first of all, two <a class="theory-lookup" href="/learn/step/3525" rel="noopener noreferrer nofollow" target="_blank" title="In Java, 'sum' is not a predefined keyword or term. | However, in programming, 'sum' is often used to refer to the total or combined value of multiple numbers or variables. For instance, if you have two integer variables 'a' and 'b', you might calculate their sum with the expression 'a + b'. This would give you the combined value of 'a' and 'b'. In Java, you could then store this sum in a new variable, say 'c', with the statement 'c = a + b'.">sums</a> are calculated, and then they are compared using the operator <code class="language-java">&gt;</code>.</p>
+<pre><code class="language-java">int number = 1000;
+boolean result = number + 10 &gt; number + 9; // 1010 &gt; 1009 is true</code></pre>
+<p>The <code class="language-java">result</code> is <code class="language-java">true</code>.</p>
+<h5 id="joining-relational-operations-using-logical-operators" style="text-align: center;">Joining relational operations using logical operators</h5>
+<p>In Java, you cannot write an expression like <strong>a &lt;= b &lt;= c</strong>. Instead, you should join two boolean expressions using <a class="theory-lookup" href="/learn/step/3516" rel="noopener noreferrer nofollow" target="_blank" title="Logical operators in Java are used to combine boolean expressions and create more complex logical statements. | There are four logical operators: not, and, or, and xor. Not is a unary operator that reverses the boolean value, and is denoted by !. And and or are binary operators that return true if both operands or at least one operand is true, respectively. They are denoted by &amp;&amp; and . Xor (exclusive or) is a binary operator that returns true if boolean operands have different values, and is denoted by ^.">logical operators</a> like <code class="language-java">||</code> and <code class="language-java">&amp;&amp;</code>.</p>
+<p>Here is an example:</p>
+<pre><code class="language-java">number &gt; 100 &amp;&amp; number &lt; 200; // it means 100 &lt; number &lt; 200 </code></pre>
+<p>Also, we can write parts of the expression in parentheses to improve readability:</p>
+<pre><code class="language-java">(number &gt; 100) &amp;&amp; (number &lt; 200);</code></pre>
+<p>But parentheses are not necessary here because relational operators have a higher priority than logical operators.</p>
+<p>Here is a more general example of <a class="theory-lookup" href="/learn/step/3518" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a variable is a named storage location that is used to store a value of a specific type. | It is declared with a specific data type, which determines the kind of value that can be stored in it. Every variable has a unique name, also known as an identifier, which is used to access its value. Variables can be declared and initialized in a single statement, and their values can be accessed and modified throughout the program.">variables</a>.</p>
+<pre><code class="language-java">int number = ...             // it has a value
+int low = 100, high = 200;   // borders
+
+boolean inRange = number &gt; low &amp;&amp; number &lt; high;  // joining two expressions using AND.</code></pre>
+<p>The code checks if the value of <code class="language-java">number</code> belongs to a <a class="theory-lookup" href="/learn/step/18021" rel="noopener noreferrer nofollow" target="_blank" title="In Java, range refers to a sequence of values within a specific range, often used to represent a continuous set of data. | It can be implemented using various data structures such as arrays, lists, or custom classes. A range can be accessed, modified, and iterated over, making it a versatile tool for working with collections of data. The iterator design pattern can be used to provide a universal interface for accessing elements of any collection contained in a Java class, including ranges.">range</a>.</p>
+<p>So, logical operators allow you to join a sequence of relational operations into one expression.</p>
+<h5 id="an-example-of-a-program" style="text-align: center;">An example of a program</h5>
+<p>Suppose there are three children in the sports class. You want to check if their heights are arranged in descending order. The following program reads three integer numbers <code class="language-java">h1</code>, <code class="language-java">h2</code>, and <code class="language-java">h3</code> and then checks if <code class="language-java">h1 &gt;= h2</code> and <code class="language-java">h2 &gt;= h3</code>. Note that <strong>h</strong> means <strong>the height of a child</strong>.</p>
+<pre><code class="language-java">import java.util.Scanner;
+
+public class CheckDescOrder {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int h1 = scanner.nextInt();
+        int h2 = scanner.nextInt();
+        int h3 = scanner.nextInt();
+
+        boolean descOrdered = (h1 &gt;= h2) &amp;&amp; (h2 &gt;= h3);
+
+        System.out.println(descOrdered);
+    }
+}</code></pre>
+<p>Here are several input-output pairs:</p>
+<p><strong><a class="theory-lookup" href="/learn/step/9055" rel="noopener noreferrer nofollow" target="_blank" title="In Java, input typically refers to the process of receiving data from an external source, such as a user through the keyboard or a file. | This data is often stored in variables, which can be of various data types like int, float, or String. Java provides several classes and methods for handling input, such as the Scanner class in the java.util package. Input can be used for a variety of purposes, such as getting user feedback or reading data from a file for further processing. It's important to handle input carefully to ensure the program behaves correctly and securely.">Input</a> 1</strong></p>
+<pre><code class="language-java">185 178 172</code></pre>
+<p><strong>Output 1</strong></p>
+<pre><code class="language-java">true</code></pre>
+<p><strong>Input 2</strong></p>
+<pre><code class="language-java">181 184 177</code></pre>
+<p><strong>Output 2</strong></p>
+<pre><code class="language-java">false</code></pre>
+<p>It is possible not to use an additional variable to store the boolean result before output:</p>
+<pre><code class="language-java">System.out.println((h1 &gt;= h2) &amp;&amp; (h2 &gt;= h3));</code></pre>
+<p>But when your condition is quite long, it is hard to understand what the code does without some explanations. A variable with a good name provides such an explanation.</p>
+<h5 id="conclusion" style="text-align: center;">Conclusion</h5>
+<p>Java's six relational operators <code class="language-java">==</code>, <code class="language-java">!=</code>, <code class="language-java">&gt;</code>, <code class="language-java">&gt;=</code>, <code class="language-java">&lt;</code>, <code class="language-java">&lt;=</code> are powerful tools for comparing numeric values, always resulting in a boolean (<code class="language-java">true </code>or <code class="language-java">false</code>) outcome. They allow for straightforward comparisons of integer numbers and can be seamlessly integrated into mixed expressions with arithmetic operators. Relational operators in Java are fundamental tools for creating conditional logic and decision-making <a class="theory-lookup" href="/learn/step/3582" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a process refers to the execution of a program or a sequence of instructions. | It involves the allocation of system resources, such as memory and CPU time, to carry out the tasks defined in the code. The process begins with the main method, which serves as the entry point for any Java application. The Java Virtual Machine (JVM) manages the process, converting the bytecode into machine code and executing it on the host system. The process continues until all the instructions have been executed or the program is terminated.">processes</a> in Java programs.</p>
+</div>

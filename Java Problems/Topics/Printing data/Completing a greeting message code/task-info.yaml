@@ -1,0 +1,18 @@
+type: unsupported
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // This is a fill blanks task. You can use this editor as a playground
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/38676#comment
+status: Solved
+feedback:
+  time: "Tue, 27 Feb 2024 20:18:45 UTC"
+record: -1

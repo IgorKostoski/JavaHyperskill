@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Naming variables/Complete a program" />
+            <option value="$PROJECT_DIR$/Topics/Naming variables/Determine whether the name is valid" />
+            <option value="$PROJECT_DIR$/Topics/Naming variables/Initializing inventory count and item price variables" />
+            <option value="$PROJECT_DIR$/Topics/Naming variables/Renaming variables per naming convention" />
+            <option value="$PROJECT_DIR$/Topics/Naming variables/The best name for a variable" />
+            <option value="$PROJECT_DIR$/Topics/Naming variables/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Naming variables/Valid and invalid names" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Completing a greeting message code" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Déjà vu" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/From 0 to 4" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Printing a magic letter" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Square a user-inputted integer" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Printing data/What does the code print" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

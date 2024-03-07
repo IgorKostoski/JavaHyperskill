@@ -1,0 +1,24 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.*;
+      
+      public class Main {
+          public static void main(String[] args) {
+              // Create a Scanner object to acquire input
+              Scanner sc = new Scanner(System.in);
+      
+              // Read the name of the variable that needs to be renamed
+              String varName = sc.nextLine();
+      
+              // Implement the renaming logic here
+      
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/43751#comment
+status: Unchecked
+record: -1
+submission_language: java17

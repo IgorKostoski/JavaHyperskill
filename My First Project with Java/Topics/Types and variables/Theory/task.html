@@ -1,0 +1,75 @@
+<h2>Types and variables</h2>
+<div class="step-text">
+<p>In programming, a <strong><a class="theory-lookup" href="/learn/step/16479" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a variable is a named storage location that is used to store a value of a specific type. | It is declared with a specific data type, which determines the kind of value that can be stored in it. Every variable has a unique name, also known as an identifier, which is used to access its value. Variables can be declared and initialized in a single statement, and their values can be accessed and modified throughout the program.">variable</a></strong> is a placeholder for storing a value of a particular <strong>type: </strong>a <a class="theory-lookup" href="/learn/step/3522" rel="noopener noreferrer nofollow" target="_blank" title="A string in Java is a reference type consisting of characters, and it is one of the most widely used types in Java. | Strings are immutable, meaning their characters cannot be changed once created. They have methods for getting individual characters and extracting substrings, and they work with text, whether it's a simple hello, world! or a complex document. Strings are everywhere in Java code, and understanding how to use them effectively is fundamental for any Java developer.">string</a>, a number, or something else. In this topic, you will learn how to declare and use variables in Java programs.</p>
+<h5 id="declaring-and-initializing">Declaring and initializing</h5>
+<p>Every variable has a <strong>name </strong>(also known as<strong> an identifier)</strong> to distinguish it from others. Before you start using a variable, you must declare it. The general form of <a class="theory-lookup" href="/learn/step/10982" rel="noopener noreferrer nofollow" target="_blank" title="Declaration in Java is the process of defining a variable, method, or class by specifying its name, type, and other attributes. | When declaring a variable, you specify its data type and name, and optionally initialize it with a value. Declaring a variable with a specific type can be lengthy and difficult to read, but starting from Java 10, you can use the var keyword instead of a specific type to force automatic type inference based on the type of assigned value.">declaration</a> is the following:</p>
+<pre><code class="language-java">DataType variableName = initialization;</code></pre>
+<p>The left part of this <a class="theory-lookup" href="/learn/step/9955" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a statement is a unit of code that performs a specific action. | It is a complete instruction that can be executed by the Java Virtual Machine (JVM). Statements are often used to declare variables, assign values, control the flow of a program, or call methods. They are typically terminated by a semicolon (;) and can be organized into blocks to define the scope and visibility of variables and methods. Understanding statements is crucial for writing clear and concise Java code.">statement</a> describes the variable, and the right part describes something that is assigned to it.</p>
+<ul>
+<li>
+<p>The <strong>type (</strong>or<strong> data type) </strong>of a variable determines what possible <a class="theory-lookup" href="/learn/step/3582" rel="noopener noreferrer nofollow" target="_blank" title="An operation in Java refers to a specific action performed on data, such as arithmetic, logical, or relational operations. | Arithmetic operations include addition, subtraction, multiplication, division, and modulus, while logical operations involve Boolean values using AND, OR, and NOT. Relational operations compare values and return a Boolean result, such as equal to, not equal to, less than, greater than, less than or equal to, and greater than or equal to. These operations are fundamental to programming and are used to manipulate and evaluate data within a Java program.">operations</a> can be performed on the variable and which values can be stored in it. Here we use a non-existent data type (<strong>DataType</strong>) to demonstrate the general form of declaration.</p>
+</li>
+<li>
+<p>The <strong>name (</strong>or<strong> <a class="theory-lookup" href="/learn/step/10982" rel="noopener noreferrer nofollow" target="_blank" title="An identifier in Java is a word used to name a variable, method, class, or any other user-defined entity. | It is a unique name given to an entity to distinguish it from others. Identifiers can consist of letters, digits, underscores, and dollar signs, but they cannot begin with a digit. Java is case-sensitive, so uppercase and lowercase letters are treated as distinct characters. It is important to choose meaningful and descriptive names for identifiers to make the code more readable and maintainable.">identifier</a>)</strong> distinguishes the variable from others. The name of a variable cannot start with a digit; it usually starts with a letter. Always try to choose meaningful and readable names for variables to make your code easy to understand.</p>
+</li>
+<li>
+<p>The <strong>assignment</strong> <strong>operator</strong> denoted as <code class="language-java">=</code> is used to assign a single value or a result of an <a class="theory-lookup" href="/learn/step/11635" rel="noopener noreferrer nofollow" target="_blank" title="An expression in Java is a combination of variables, operators, and method invocations that yield a value when evaluated. | It can be a simple literal, variable, or operator, or a complex mix of these elements. Expressions are fundamental to programming as they allow you to perform calculations, manipulate data, and make decisions. They can be assigned to variables, passed as arguments to methods, or used in control flow structures like if-else statements and loops. Understanding expressions is crucial for writing effective Java code.">expression</a> to a variable.</p>
+</li>
+<li>
+<p>The<strong> <a class="theory-lookup" href="/learn/step/3533" rel="noopener noreferrer nofollow" target="_blank" title="Initialization in Java refers to the process of assigning an initial value to a variable or an object. | This can be done in several ways, such as through a constructor, an instance initialization block, or a static initialization block. The Java compiler also allows for automatic type inference during initialization, where the type is determined based on the assigned value. Initialization is an important concept in Java as it ensures that objects are properly set up before they are used in the program.">initialization</a></strong> is a value or a result of an expression that is assigned to the variable.</p>
+</li>
+</ul>
+<p>According to this declaration, we can declare a variable of the type <strong>String</strong> and assign the word <strong>"java"</strong> to it:</p>
+<pre><code class="language-java">String language = "java";</code></pre>
+<p>We can also declare a variable of the type <code class="language-java">int</code> to store an <a class="theory-lookup" href="/learn/step/3565" rel="noopener noreferrer nofollow" target="_blank" title="In Java, an integer number is a type of primitive data type that represents whole numbers, both positive and negative, as well as zero. | The most commonly used integer types are byte, short, int, and long, with int being the default type. These types can store numbers within specific ranges, with int being able to store numbers between -2,147,483,648 and 2,147,483,647.">integer number</a>:</p>
+<pre><code class="language-java">int numberOfApples = 5;</code></pre>
+<p> </p>
+<p>The case in the name of a variable makes a difference: <code class="language-java">language</code> is not the same as <code class="language-java">Language</code>.</p>
+<p> </p>
+<p>Variables can store not only strings and numbers, but also characters and other <a class="theory-lookup" href="/learn/step/3532" rel="noopener noreferrer nofollow" target="_blank" title="In Java, data types are categorized into two main groups: primitive and reference types. | There are eight primitive types, all of which are built-in and represented by keywords. These types include integer numbers, such as int, and fractional numbers. Java also provides several types for integer and fractional numbers, which are often used in arithmetic expressions. Primitive types have specific sizes and ranges of values they can represent. For example, an int represents an integer number.">data types</a> which we will learn about later in the next topics.</p>
+<h5 id="accessing-the-value-of-a-variable">Accessing the value of a variable</h5>
+<p>Once a variable has been declared, its value can be accessed and modified using the name. In the example below, we declare a variable and then <a class="theory-lookup" href="/learn/step/13775" rel="noopener noreferrer nofollow" target="_blank" title="In Java, 'print' is a statement used to display output to the console. | It writes the specified text or variable value to the standard output stream, which is typically the console. Unlike 'println', 'print' does not add a newline character after the output, meaning that subsequent print statements will continue writing on the same line. It's a fundamental tool for providing feedback and displaying results in a Java program.">print</a> it:</p>
+<pre><code class="language-java">String dayOfWeek = "Monday";
+System.out.println(dayOfWeek); // Monday</code></pre>
+<p>It is also possible to assign a value of one variable to another one:</p>
+<pre><code class="language-java">int one = 1;
+int num = one;
+System.out.println(num); // 1</code></pre>
+<p>One important feature of variables is that they can be changed. You don't need to declare a variable again to change its value; just assign a new value to it using the <code class="language-java">=</code> operator.</p>
+<p>Let's declare a variable named <code class="language-java">dayOfWeek</code> and print its value before and after changing:</p>
+<pre><code class="language-java">String dayOfWeek = "Monday";
+System.out.println(dayOfWeek); // Monday
+
+dayOfWeek = "Tuesday";
+System.out.println(dayOfWeek); // Tuesday</code></pre>
+<p>There is one restriction for variables: you can only assign a value of the same type as the type of the initial variable. So, the following code is not correct:</p>
+<pre><code class="language-java">int number = 10;
+number = 11; // ok
+number = "twelve"; // it does not work!</code></pre>
+<h5 id="alternative-forms-of-declaration">Alternative forms of declaration</h5>
+<p>There are several alternative forms of declaration which are less commonly used in practice. Here are a couple of them shown with examples..</p>
+<ul>
+<li>
+<p>Declaring several variables of the same type as a single statement:</p>
+</li>
+</ul>
+<pre><code class="language-java">String language = "java", version = "8 or newer";</code></pre>
+<ul>
+<li>
+<p>Separating declaration and initialization into statements:</p>
+</li>
+</ul>
+<pre><code class="language-java">int age; // declaration
+age = 35; // initialization </code></pre>
+<p>However, as we have already noted, these forms are rarely used.</p>
+<h5 id="type-inference">Type inference</h5>
+<p>Since Java 10, you can write <strong>var</strong> instead of a specific type to force automatic <a class="theory-lookup" href="/learn/step/3492" rel="noopener noreferrer nofollow" target="_blank" title="In Java, type inference is a feature that allows the compiler to automatically deduce the data type of a variable based on the value it is initialized with, using the var keyword. | This can make the code more concise, but it may also affect code readability negatively as the type is not explicitly indicated. Type inference is available from Java 10 onwards, and it can be used in variable declarations and initializations, as well as in the creation of objects of generic classes.">type inference</a> based on the type of assigned value:</p>
+<pre><code class="language-java">var variableName = initialization;</code></pre>
+<p>Here are two examples below:</p>
+<pre><code class="language-java">var language = "Java"; // String
+var version = 10; // int</code></pre>
+<p>This feature can be a bit controversial: on the one hand, it allows your code to be more concise. On the other hand, since it doesn't indicate the type explicitly, it may affect the code readability in a bad way. For now, it's enough to understand the basic idea. We will not use type inference in our theory so that our educational platform is suitable for people who use earlier versions of Java. But if you would like to practice it, you may use type inference in our exercises as they fully support Java 10.</p>
+<h5 id="conclusion">Conclusion</h5>
+<p>Variables in Java are used to store values of different data types. They need to be declared with a type and a name. Variables can be modified after declaration, but the new value must be of the same type as the old one. In Java 10, the <strong>var</strong> keyword was introduced for automatic type inference.<br/><br/>
+</p>
+</div>

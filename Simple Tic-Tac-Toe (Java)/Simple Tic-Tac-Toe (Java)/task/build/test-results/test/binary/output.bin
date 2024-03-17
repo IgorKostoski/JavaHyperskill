@@ -11,7 +11,8 @@
 | O X _ |
 
 ---------
-Enter the coordinates: > 1 1
+Enter the coordinates: 
+> 1 1
 
 ---------
 
@@ -35,17 +36,23 @@
 | O X _ |
 
 ---------
-Enter the coordinates: > 4 1
+Enter the coordinates: 
+> 4 1
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 1 2
+Enter the coordinates: 
+> 1 2
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 1 3
+Enter the coordinates: 
+> 1 3
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 1
+Enter the coordinates: 
+> 2 1
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 2
+Enter the coordinates: 
+> 2 2
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 3
+Enter the coordinates: 
+> 2 3
 
 ---------
 
@@ -69,13 +76,17 @@
 | O X _ |
 
 ---------
-Enter the coordinates: > 1 3
+Enter the coordinates: 
+> 1 3
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 1
+Enter the coordinates: 
+> 2 1
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 2
+Enter the coordinates: 
+> 2 2
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 3
+Enter the coordinates: 
+> 2 3
 
 ---------
 
@@ -99,13 +110,17 @@
 | O X _ |
 
 ---------
-Enter the coordinates: > 4 3
+Enter the coordinates: 
+> 4 3
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 2 1
+Enter the coordinates: 
+> 2 1
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 2
+Enter the coordinates: 
+> 2 2
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 3
+Enter the coordinates: 
+> 2 3
 
 ---------
 
@@ -129,9 +144,11 @@
 | O X _ |
 
 ---------
-Enter the coordinates: > 2 2
+Enter the coordinates: 
+> 2 2
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 3
+Enter the coordinates: 
+> 2 3
 
 ---------
 
@@ -155,9 +172,11 @@
 | O X _ |
 
 ---------
-Enter the coordinates: > 4 5
+Enter the coordinates: 
+> 4 5
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 2 3
+Enter the coordinates: 
+> 2 3
 
 ---------
 
@@ -181,11 +200,14 @@
 | O X _ |
 
 ---------
-Enter the coordinates: > 3 1
+Enter the coordinates: 
+> 3 1
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 3 2
+Enter the coordinates: 
+> 3 2
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 3 3
+Enter the coordinates: 
+> 3 3
 
 ---------
 
@@ -209,11 +231,14 @@
 | O X _ |
 
 ---------
-Enter the coordinates: > 4 7
+Enter the coordinates: 
+> 4 7
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 3 2
+Enter the coordinates: 
+> 3 2
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 3 3
+Enter the coordinates: 
+> 3 3
 
 ---------
 
@@ -237,7 +262,8 @@
 | O X _ |
 
 ---------
-Enter the coordinates: > 3 3
+Enter the coordinates: 
+> 3 3
 
 ---------
 
@@ -261,9 +287,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 4 9
+Enter the coordinates: 
+> 4 9
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 1 1
+Enter the coordinates: 
+> 1 1
 
 ---------
 
@@ -287,7 +315,8 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 1 2
+Enter the coordinates: 
+> 1 2
 
 ---------
 
@@ -311,9 +340,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 4 11
+Enter the coordinates: 
+> 4 11
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 1 3
+Enter the coordinates: 
+> 1 3
 
 ---------
 
@@ -337,7 +368,8 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 2 1
+Enter the coordinates: 
+> 2 1
 
 ---------
 
@@ -361,9 +393,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 4 13
+Enter the coordinates: 
+> 4 13
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 2 2
+Enter the coordinates: 
+> 2 2
 
 ---------
 
@@ -387,7 +421,8 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 2 3
+Enter the coordinates: 
+> 2 3
 
 ---------
 
@@ -411,9 +446,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 4 15
+Enter the coordinates: 
+> 4 15
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 3 1
+Enter the coordinates: 
+> 3 1
 
 ---------
 
@@ -437,7 +474,8 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 3 2
+Enter the coordinates: 
+> 3 2
 
 ---------
 
@@ -461,9 +499,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 4 17
+Enter the coordinates: 
+> 4 17
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 3 3
+Enter the coordinates: 
+> 3 3
 
 ---------
 
@@ -487,9 +527,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 1 1
+Enter the coordinates: 
+> 1 1
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 1 2
+Enter the coordinates: 
+> 1 2
 
 ---------
 
@@ -513,9 +555,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 4 19
+Enter the coordinates: 
+> 4 19
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 1 2
+Enter the coordinates: 
+> 1 2
 
 ---------
 
@@ -539,9 +583,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 1 3
+Enter the coordinates: 
+> 1 3
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 1
+Enter the coordinates: 
+> 2 1
 
 ---------
 
@@ -565,9 +611,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 4 21
+Enter the coordinates: 
+> 4 21
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 2 1
+Enter the coordinates: 
+> 2 1
 
 ---------
 
@@ -591,9 +639,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 2 2
+Enter the coordinates: 
+> 2 2
 +This cell is occupied! Choose another one!
-Enter the coordinates: > 2 3
+Enter the coordinates: 
+> 2 3
 
 ---------
 
@@ -617,9 +667,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 4 23
+Enter the coordinates: 
+> 4 23
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 2 3
+Enter the coordinates: 
+> 2 3
 
 ---------
 
@@ -643,7 +695,8 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 3 1
+Enter the coordinates: 
+> 3 1
 
 ---------
 
@@ -667,9 +720,11 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 4 25
+Enter the coordinates: 
+> 4 25
 #Coordinates should be from 1 to 3!
-Enter the coordinates: > 3 2
+Enter the coordinates: 
+> 3 2
 
 ---------
 
@@ -693,7 +748,8 @@
 | _ _ _ |
 
 ---------
-Enter the coordinates: > 3 3
+Enter the coordinates: 
+> 3 3
 
 ---------
 
